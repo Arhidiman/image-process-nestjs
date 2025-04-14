@@ -1,0 +1,1 @@
+export const secretKey = '23fj38fhHjl3jf'
