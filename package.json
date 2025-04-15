@@ -10,7 +10,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "dev-gateway": "set PORT=3000 && ts-node ./src/auth-service/main.ts",
     "dev-auth": "set PORT=3001 && ts-node ./src/auth-service/main.ts",
-    "dev-image-processing": "set PORT=3002 && ts-node ./src/auth-service/main.ts",
+    "dev-image-processing": "set PORT=3002 && ts-node ./src/image-processing-service/main.ts",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
